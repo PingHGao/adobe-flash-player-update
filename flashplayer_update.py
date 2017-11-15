@@ -82,5 +82,6 @@ if __name__=='__main__':
     urllib.urlretrieve(download_link, filename=download_file, reporthook=download_process)
 
     install(download_path, download_filename, download_file_type)
+    print 'Updated. Please restart the Web Broaser.'
 
 
